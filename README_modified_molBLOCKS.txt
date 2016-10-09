@@ -1,0 +1,37 @@
+modiefied molBLOCKS v0.1 -- 09/10/16
+Copyright (c) 2016  Kathrin Heikamp.
+
+This is the modified molBLOCKS program as described in:
+
+Exhaustive Sampling of the Fragment Space Associated to a Molecule Leading to the Generation of Conserved Fragments
+Kathrin Heikamp, Fabio Zuccotto, Michael Kiczun, Peter Ray, and Ian H. Gilbert
+submitted
+
+If you use this program, please cite the paper.
+
+The original version molBLOCKS is described in:
+
+molBLOCKS: decomposing small molecule sets and uncovering enriched fragments
+Dario Ghersi and Mona Singh
+
+-----------------------------------------------------------------------------
+
+INSTALLATION -- SOURCE CODE
+
+Please follow the instructions in the README of the original molBLOCKS program.
+
+-----------------------------------------------------------------------------
+
+EXAMPLE CALL:
+
+To run the program with the extended RECAP rules and additional parameters as described in the paper, 
+type the following:
+
+# fragment -r extendedRECAP.txt -i all_drugs.txt -n 5 -k 8 -w 300 -s 0.99 -o out.txt -x
+
+For example files and runs, please see the original program.
+
+-----------------------------------------------------------------------------
+
+Please send an email to Kathrin Heikamp (kheikamp [at] gmx.net) if you
+have any questions.
